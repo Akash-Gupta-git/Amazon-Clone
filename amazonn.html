@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="amazonn.css">
+    <script src="https://kit.fontawesome.com/fcdfbe2133.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navigation-container">
+         <div class="logo-box border">
+             <!-- <img id="logo" url="/amazon/Amazon_Profile/photos/lgo_amazo.png">  -->
+              <div id="logo"></div>
+         </div>
+            
+         <div class="deliver-container border">
+            <p class="deliver">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="india">India</p>
+            </div>
+         </div>
+
+
+         <div class="input-container ">
+            <select class="select-bar"> 
+                <option>All</option>
+                <option>All departments</option>
+                <option>Arts $ Crafts</option>
+                <option>Automotive</option>
+                <option>Baby</option>
+                <option>Beautifull personal Care</option>
+            </select>
+            <input id="search-bar" placeholder="Search Amazon" > 
+        </input>
+            
+                <div class="search-icon">
+                     <button id="search-icon2"> <i class="fa-solid fa-magnifying-glass"></i></button> 
+                </div>
+         </div>
+
+
+        <div class="language-change border">
+            <i class="fa-solid fa-flag-usa"></i>
+            <select type="radio" id="radio">
+                <p>Change the language <link href="#"></p>
+                
+                <option type="radio" value="ENG">ENG</option>
+                
+                <option>Japanies</option>
+                <option>Franch</option>
+                <option>Amarican</option>
+                <option>US</option>
+                <option>UK</option>
+                <option>Hindi</option>
+                <option>Hinglish</option>
+
+                
+            </select>
+        </div>
+
+        
+        <div class="sign-in border">
+            <p class="fi-sign">Hello,Sign in</p>
+            <p class="Account-list-text">Account & Lists</p>
+        </div>
+        <div class="return-in border">
+            <p class="rp">Returns</p>
+            <p class="and-order-text">& Order</p>
+        </div>
+
+        <div class="cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>Cart</p>
+        </div>
+    </div>
+
+    <div class="nav-prograssive">
+
+        <div class="menu">
+            <p class="deal border"> <i class="fa-solid fa-bars"></i> All</p>
+            <p class="deal border">Today's Deals</p>
+            <p class="deal border">Customer Service</p>
+            <p class="deal border">Registry</p>
+            <p class="deal border">Gift Cards</p>
+            <p class="deal border">Sell</p>
+        </div>
+    </div>
+        
+          
+  <div id="btn-bg">
+    <button id="left" onclick="goPrev()"><i class="fa-solid fa-chevron-left"></i></button>
+    <button id="right" onclick="goNext()"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+
+<div id="background">
+    <div class="slider">
+        <img class="img-bck" src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" />
+        <img class="img-bck" src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg" />
+        <img class="img-bck" src="https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg" />
+        <img class="img-bck" src="https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg" />
+        <img class="img-bck" src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" />
+    </div>
+</div>
+
+
+
+
+
+        <div id="sale-box-container">
+            
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Gaming accessories</h1>
+                
+                <div class="oneImgContainer multiImgContainer">
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg"><p>Headsets</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg"><p>Keyboards</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg"><p class="prdct-name">Computer mice</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg"> <p class="prdct-name">Chairs</p></image></span>
+                </div>
+                <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more details</a>
+            </div>
+            
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Shop deals in Fashion</h1>
+                
+                <div class="oneImgContainer multiImgContainer">
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg"><p>Jeans under $50</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg"><p>Tops under $25</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg"><p class="prdct-name">Dresses under $30</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg"> <p class="prdct-name">Shoes under $50</p></image></span>
+                </div>
+                <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more details</a>
+            </div>
+            
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Refresh your space</h1>
+                
+               
+                <div class="oneImgContainer multiImgContainer">
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_LP-HP_B08MYX5Q2W_01.23._SY116_CB619238939_.jpg"><p>Dining</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_home_B08RCCP3HV_01.23._SY116_CB619238939_.jpg"><p>Home</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_kitchen_B0126LMDFK_01.23._SY116_CB619238939_.jpg"><p class="prdct-name">Kitchen</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/launchpad/2023/Gateway/January/DesktopQuadCat_186x116_health-beauty_B07662GN57_01.23._SY116_CB619238939_.jpg"> <p class="prdct-name">Health and Beauty</p></image></span>
+                </div>
+                <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more details</a>
+                
+            </div>
+            
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Deals in PCs</h1>
+
+                <div class="oneImgContainer">
+
+                    <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" ></div>
+                    <span  class="Shop-now-text">Shop now</span>
+            </div>
+            
+            <div id="pic-4x4-box">
+               <h1 class="product-text-name">Toys under $25</h1>
+
+               <div class="oneImgContainer">
+                <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" >
+            </div>
+                <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">Shop now</a>
+            </div>
+
+
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Beauty steals under $25</h1>
+
+                <div class="oneImgContainer">
+                    <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg" >
+                </div>
+                <a  href="amazonsign.html" target="_blank"  class="Shop-now-text">Shop now</a>
+            </div>
+
+
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Fashion trends you like</h1>
+                
+                <div class="oneImgContainer multiImgContainer">
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_2_x1._SY116_CB595261253_.jpg"><p>Dresses</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_3_x1._SY116_CB595261253_.jpg"><p>Knits</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_1_x1._SY116_CB595261253_.jpg"><p class="prdct-name">Jackets</p></image></span>
+                    <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_4_x1._SY116_CB595261253_.jpg"> <p class="prdct-name">Jewelry</p></image></span>
+                </div>
+                <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">Explore more</a>
+                
+            </div>
+
+            <div id="pic-4x4-box">
+                <h1 class="product-text-name">Home décor under $50</h1>
+
+                <div class="oneImgContainer">
+                    <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v6._SY304_CB573698005_.jpg" >
+                </div>
+                <a href="amazonsign.html" target="-blank" class="Shop-now-text">Shop now</a>
+            </div>
+
+<!----------------------------------------------------------------------------------------------------------------  -->
+            <div id="change-choice-div-container">
+                <div id="text-heading">
+                    <p>Best Sellers in Cell Phones & Accessories</p>
+                </div>
+                <div id="change-choice-div">
+                    
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71vk1UJniHL._AC_SY200_.jpg"></image></li>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61XaXw+DDRL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71aodrmIgCL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71OicfvCsbL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71zY7rMNyjL._AC_SY200_.jpg"></image></li>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61wDa7Ea5TL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71Dfmp6z2SL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61elgS6ncgL._AC_SY200_.jpg"></image>
+                </div>
+                
+                <div id="change-choice-btn">
+                    <button id="arrow-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button id="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                
+            </div>
+            
+            <div id="change-choice-div-container">
+                <div id="text-heading">
+                    <p>Popular Gifts in Baby</p>
+                </div>
+                <div id="change-choice-div">
+                    
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/81oxwKXp+6L._AC_SY200_.jpg"></image></li>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71NeB+vdZNL._AC_SY200_.jpg "></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61KlU-X-0+L._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/81elrEu+PCL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61t66wWbwSL._AC_SY200_.jpg"></image></li>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/91cmJZhpc9L._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/81elrEu+PCL._AC_SY200_.jpg"></image>
+                    <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/819ch6yZJYL._AC_SY200_.jpg"></image>
+                </div>
+                
+                <div id="change-choice-btn">
+                    <button id="arrow-btn" onclick="goNext2()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button id="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                
+            </div>
+
+<!----------------------------------------------------------------------------------------------------------------  -->
+
+<!-- <div id="sale-box-container"> -->
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Gaming merchandise</h1>
+        
+        <div class="oneImgContainer multiImgContainer">
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_1x._SY116_CB667159060_.jpg"><p>Apparel</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_1x._SY116_CB667159060_.jpg"><p>Hats</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_1x._SY116_CB667159060_.jpg"><p class="prdct-name">Action figures</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_1x._SY116_CB667159063_.jpg"> <p class="prdct-name">Mugs</p></image></span>
+        </div>
+        <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more details</a>
+    </div>
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">activity trackers & smartwatches</h1>
+
+        <div class="oneImgContainer">
+
+            <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" ></div>
+            <a  href="amazonsign.html" target="_blank" class="Shop-now-text">Shop now</a>
+    </div>
+    
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Warm & welcoming decor</h1>
+        
+        <div class="oneImgContainer multiImgContainer">
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Wreaths_Decor_QuadCard_D_01_186x116._SY116_CB596234042_.jpg"><p>Wreaths & Garlands</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_03_186x116._SY116_CB596234042_.jpg"><p>Outdoor decor</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_Oct_Pillows_Decor_QuadCard_D_02_186x116._SY116_CB596234042_.jpg"><p class="prdct-name">Pillows &throws</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/img22/Events/Fall23/FALL23_HP_Oct_Decor_QuadCard_D_04_186x116._SY116_CB596234042_.jpg"> <p class="prdct-name">Wall art & mirrors</p></image></span>
+        </div>
+        <a   href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more details</a>
+        
+    </div>
+    
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Great prices on shoes</h1>
+
+        <div class="oneImgContainer">
+
+            <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg" ></div>
+            <span  class="Shop-now-text">Shop now</span>
+    </div>
+    
+    <div id="pic-4x4-box">
+       <h1 class="product-text-name">Player's paradise starts here</h1>
+
+       <div class="oneImgContainer">
+        <img class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1546843_2940864_379x304_1X_en_US._SY304_CB613273467_.jpg" >
+    </div>
+        <span style="height: auto;" class="Shop-now-text">Shop video games</span>
+    </div>
+
+
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Have more fun with family</h1>
+        
+        <div class="oneImgContainer multiImgContainer">
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Playground_sets._SY116_CB558654384_.jpg"><p>Outdoor Play Sets</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_STEM_toys_or_learning_toys._SY116_CB558654384_.jpg"><p>Learning Toys</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Action_figure._SY116_CB558654384_.jpg"><p class="prdct-name">Action Figures</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Pretend_Play_Toys._SY116_CB558654384_.jpg"> <p class="prdct-name">Pretend Play Toys</p></image></span>
+        </div>
+        <a   href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">See more</a>
+        
+    </div>
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Upgrade office furniture</h1>
+
+        <div class="oneImgContainer">
+            <img style="height: 90%;" class="imgInboxSingle" src="https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg" >
+        </div>
+        <a  href="amazonsign.html" target="_blank" class="Shop-now-text">Shop now</a>
+    </div>
+
+    <div id="pic-4x4-box">
+        <h1 class="product-text-name">Top PCs & Accessories</h1>
+        
+        <div class="oneImgContainer multiImgContainer">
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Desktops._SY116_CB558654384_.jpg"><p>Desktops</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_laptop._SY116_CB558654384_.jpg"><p>Laptops</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Hard_Drives._SY116_CB558654384_.jpg"><p class="prdct-name">Hard drives</p></image></span>
+            <span class="prdct-name"><image class="multi-img-div"  src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Accessories._SY116_CB558654384_.jpg"> <p class="prdct-name">PC Accessories</p></image></span>
+        </div>
+        <a  href="amazonsign.html" target="_blank" style="height: auto;" class="Shop-now-text">Explore more</a>
+        
+    </div>
+
+
+
+    <div id="change-choice-div-container">
+        <div id="text-heading">
+            <p>Best Sellers in Home & Kitchen</p>
+        </div>
+        <div id="change-choice-div">
+            
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/61Vil0HlUUL._AC_SY200_.jpg"></image></li>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71QRshEn5lL._AC_SY200_.jpg"></image>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/51n6deMKIqL._AC_SY200_.jpg"></image>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/81HoSSz8keL._AC_SY200_.jpg"></image>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71pdJMZpB7L._AC_SY200_.jpg"></image></li>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71pdJMZpB7L._AC_SY200_.jpg"></image>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/71ZIS+yhIFL._AC_SY200_.jpg"></image>
+            <image class="change-multi-img-div"  src="https://m.media-amazon.com/images/I/81rd6KVToCL._AC_SY200_.jpg"></image>
+        </div>
+        
+        <div id="change-choice-btn">
+            <button id="arrow-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="arrow-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        
+    </div>
+        </div>
+        
+<!---------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+<div id="newContainerDivContainer">
+
+    <div id="newCustomerSignhere">
+        <p class="here">See personalized recommendations</p>
+        <button id="submit" onclick="" type="submit">Sign in</button>
+        <p class="here hereSmall">New customer?  <a  href="amazonsign.html" target="_blank" style="color: skyblue; text-decoration: none;">Start here.</a></p>
+    </div>
+</div>
+ 
+
+
+<footer>
+
+        <div class="backToP" >Back to top</div>
+        <div id="footer-div">
+    
+            <div id="footer-Part">
+        
+                <div id="getTOKnowAsSpace"></div>
+                <div id="getTOKnowAs">
+                    <h6>Get to Know Us</h6>
+                    <p>Careers</p>
+                    <p>Blog</p>
+                    <p>About Amazon</p>
+                    <p>Investor Relations</p>
+                    <p>Amazon Devices</p>
+                    
+                    
+                    
+
+                </div>
+                <div id="getTOKnowAsSpace"></div>
+                <div id="getTOKnowAs">
+                    <h6>Make Money with Us</h6>
+                    <p>Sell products on Amazon</p>
+                    <p>Sell on Amazon Business</p>
+                    <p>Sell apps on Amazon</p>
+                    <p>Become an Affiliate</p>
+                    <p>Advertise Your Products</p>
+                    <p>Self-Publish with Us</p>
+                    <p>Host an Amazon Hub</p>
+                    <p>›See More Make Money with Us</p>
+            </div>
+            <div id="getTOKnowAsSpace"></div>
+            <div id="getTOKnowAs">
+                <a href="#" class="LinkAmazon"><h6>Amazon Payment Products</h6></a>
+                <a href="#" class="LinkAmazon"><p>Amazon Business Card</p></a>
+                <a href="#" class="LinkAmazon"><p>Shop with Points</p></a>
+                <a href="#" class="LinkAmazon"><p>Reload Your Balance</p></a>
+                <a href="#" class="LinkAmazon"><p>Amazon Currency Converter</p></a>
+            </div>
+            <div id="getTOKnowAsSpace"></div>
+            <div id="getTOKnowAs">
+                    <h6>Let Us Help You</h6>
+                    <p>Amazon and COVID-19</p>
+                    <p>Your Account</p>
+                    
+                    <p>Your Orders</p>
+                    <p>Shipping Rates & Policies</p>
+                    <p>Returns & Replacements</p>
+                    <p>Manage Your Content and Devices</p>
+                    <p>Help</p>
+            </div>
+            <div id="getTOKnowAsSpace"></div>
+            
+        </div>
+        <div id="amazon-footer-change-lang">
+            <div id="footer-amo-img" ><img  src="https://imgs.search.brave.com/EHbNj2T_einOCg2v18hOFwT6AwFAPuc0gWQ-0yIT2gY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aGF0Y2h3aXNlLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wNS9hbWF6b24t/bG9nby0xMDI0eDY4/My5wbmc"></div>
+            <div id="scoll-cont">
+                <button id="lang-chang-footer" ><i class="fa-solid fa-earth-americas"></i>English<select class="scroll" type="radio"><option type="radio">343</option><option type="radio">Japanies</option></select></button>
+                <button id="lang-chang-footer" >USD - U.S. Dollar</button>
+                <button id="lang-chang-footer" >United States</button>
+            </div>
+
+        </div>
+        <div id="final-footer-container">
+
+            
+            <div id="final-footer-Part">
+        
+                <div class="final-footer">
+                    <h6>Amazon Music</h6>
+                    <p>Stream millions of songs</p>
+                </div>
+                    
+                    <div class="final-footer">
+                        <h6>AmazonGlobal</h6>
+                        <p>Ship Orders
+                            Internationally</p>
+                    </div>
+                    <div class="final-footer">
+                        <h6>IMDbPro</h6>
+                        <p>Get Info Entertainment
+                            Professionals Need</p>
+                        
+                    </div>
+                </div>
+                      
+                <div id="final-footer-Part">
+        
+                    <div class="final-footer">
+                        <h6>Amazon Ads</h6>
+                        <p>Reach customers
+                            wherever they
+                            spend their time</p>
+                        
+                    </div>
+                    <div class="final-footer">
+                        <h6>Home Services</h6>
+                        <p>Experienced Pros
+                            Happiness Guarantee</p>
+                        
+                    </div>
+                    <div class="final-footer">
+                        <h6>Kindle Direct Publishing</h6>
+                        <p>Indie Digital & Print Publishing
+                            Made Easy</p>
+                        
+                    </div>
+                    <div class="final-footer">
+                        <h6>eero WiFi</h6>
+                        <p>Stream 4K Video
+                            in Every Room</p>
+                        
+                    </div>
+                    </div>
+                    
+                    <div id="final-footer-Part">
+                        <div class="final-footer">
+                            <h6>6pm</h6>
+                            <p>Score deals
+                                on fashion brands</p>
+                          
+                        </div>
+                        <div class="final-footer">
+                            <h6>Amazon Web Services</h6>
+                            <p>Scalable Cloud
+                                Computing Services</p>
+                          
+                        </div>
+                         
+                           
+                        <div class="final-footer">
+                            <h6>Prime Video Direct</h6>
+                            <p>Video Distribution
+                                Made Easy</p>
+                          
+                        </div>
+                        <div class="final-footer">
+                            <h6>Blink</h6>
+                            <p>Smart Security
+                                for Every Home</p>
+                            
+                        </div>
+                      
+                       
+                        </div>
+                        <div id="final-footer-Part">
+                            <div class="final-footer">
+                                <h6>AbeBooks</h6>
+                                <p>Books, art
+                                    & collectibles</p>
+                               
+                            </div>
+                            
+                            <div class="final-footer">
+                                <h6>Audible</h6>
+                                <p>Listen to Books & Original
+                                    Audio Performances</p>
+                               
+                            </div>
+                            <div class="final-footer">
+                                <h6>Shopbop</h6>
+                                <p>Designer
+                                    Fashion Brands</p>
+                               
+                            </div>
+                            
+                         
+            
+                            <div class="final-footer">
+                                <h6>Neighbors App</h6>
+                                <p>Real-Time Crime
+                                    & Safety Alerts</p>
+                              
+                            </div>
+                           
+                            
+                           
+                            </div>
+                            <div id="final-footer-Part">
+        
+                                
+                                <div class="final-footer">
+                                    <h6>ACX</h6>
+                                        <p>Audiobook Publishing
+                                            Made Easy</p>
+                                        
+                                </div>
+                                <div class="final-footer">
+                                    <h6>Box Office Mojo</h6>
+                                        <p>Find Movie
+                                            Box Office Data</p>
+                                        
+                                </div>
+                                <div class="final-footer">
+                                    <h6>Woot!</h6>
+                                        <p>Deals and
+                                            Shenanigans</p>
+                                        
+                                </div>
+                                <div class="final-footer">
+                                    <h6>Amazon Subscription Boxes</h6>
+                                    <p>Top subscription boxes – right to your door</p>
+                                   
+                                </div>
+                               
+                                </div>
+                                <div id="final-footer-Part">
+        
+                                
+                                   
+                                    <div class="final-footer">
+                                        <a href="#" class="LinkAmazon"><h6>Sell on Amazon</h6></a>
+                                        <a href="#" class="LinkAmazon"><p>Start a Selling Account</p></a>
+                                        
+                                    </div>
+                                    <div class="final-footer">
+                                        <a href="#" class="LinkAmazon"><h6>Goodreads</h6></a>
+                                        <a href="#" class="LinkAmazon"><p>Book reviews
+                                            & recommendations</p></a>
+                                        
+                                    </div>
+                                    <div class="final-footer">
+                                        <a href="#" class="LinkAmazon"><h6>Zappos</h6></a>
+                                        <a href="#" class="LinkAmazon"><p>Shoes &
+                                            Clothing</p></a>
+                                        
+                                    </div>
+                                    <div class="final-footer">
+                                        <h6>PillPack</h6>
+                                            <p>Pharmacy Simplified</p>
+                                            
+                                    </div>
+                                  
+                                    </div>
+                                    <div id="final-footer-Part">
+                                   
+                                       
+                                        <div class="final-footer">
+                                            <h6>Amazon Business</h6>
+                                            <p>Amazon Business
+                                                Everything For
+                                                Your Business
+                                                 </p>
+                                            </div>
+                                            <div class="final-footer">
+                                                <h6>IMDb</h6>
+                                                <p>Movies, TV
+                                                    & Celebrities
+                                                     </p>
+                                                </div>
+                                                <div class="final-footer">
+                                                    <h6>Ring</h6>
+                                                    <p>Smart Home
+                                                        Security Systems
+                                                         </p>
+                                                    </div>
+                                        </div>
+                    
+                
+            </div>
+            <div id="container-footer-about">
+                <div class="footer-about">
+                    <span>Conditions of Use
+                        <span>Notice</span>
+                        <span>Consumer Health Data Privacy Disclosure</span>
+                        <span>Your Ads Privacy Choices</span>
+                </div>
+                <div class="footer-about">
+                    <span>Conditions of Use
+                        <span>© june 2024-Aug 2024,</span>
+                        <span> Amazon.com,</span>
+                        <span>Inc. or its affiliates</span>
+                </div>
+            </div>
+</div>
+</footer>
+
+<script>
+
+
+const slides = document.querySelectorAll(".img-bck");
+const slider = document.querySelector('.slider');
+let currentSlide = 0; // Track the current slide index
+
+const goPrev = () => {
+    currentSlide = (currentSlide > 0) ? currentSlide - 1 : slides.length - 1;
+    slideImage();
+};
+
+const goNext = () => {
+    currentSlide = (currentSlide < slides.length - 1) ? currentSlide + 1 : 0;
+    slideImage();
+};
+
+const slideImage = () => {
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+};
+
+// Initialize the slider to show the first image
+slideImage();
+
+
+// const phoneSale = document.querySelectorAll(".change-multi-img-div");
+// const slide2 = document.querySelector('#change-choice-div');
+// let counter = 0;
+// const goNext2 = () => {
+//     // alert()
+//     counter = (counter < phoneSale.length - 1) ? counter + 1 : 0;
+//     slideImage2();
+// };
+// const slideImage2 = () => {
+   
+//     for(let i = 0; i<=slide2.length; i++) {
+//         let swap = slide2[i];
+//         slide2[i] =slide2[i+1];
+//         slide2[i+1] = swap;
+//     }
+//     slide2.style.transform = `translateX(-${currentSlide * 900}%)`;
+// };
+
+
+// for(let i = 0; i<=slide2.length; i++){
+//     let swap = slide2.[i];
+//         slide2.[i] =slide2.[i+1];
+//         slide2.[i+1] = swap;
+//     counter++
+// }
+
+
+
+
+</script>
+</body>
+</html>
