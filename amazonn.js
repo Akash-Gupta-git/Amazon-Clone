@@ -22,28 +22,3 @@ const slideImage = () => {
 slideImage();
 
 
-// const phoneSale = document.querySelectorAll(".change-multi-img-div");
-// const slide2 = document.querySelector('#change-choice-div');
-// let counter = 0;
-// const goNext2 = () => {
-//     // alert()
-//     counter = (counter < phoneSale.length - 1) ? counter + 1 : 0;
-//     slideImage2();
-// };
-// const slideImage2 = () => {
-   
-//     for(let i = 0; i<=slide2.length; i++) {
-//         let swap = slide2[i];
-//         slide2[i] =slide2[i+1];
-//         slide2[i+1] = swap;
-//     }
-//     slide2.style.transform = `translateX(-${currentSlide * 900}%)`;
-// };
-
-
-// for(let i = 0; i<=slide2.length; i++){
-//     let swap = slide2.[i];
-//         slide2.[i] =slide2.[i+1];
-//         slide2.[i+1] = swap;
-//     counter++
-// }

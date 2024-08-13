@@ -88,6 +88,7 @@ background-color:rgb(255, 123, 0);
    
 }
 #search-icon2:hover {
+    cursor: pointer;
     background-color: orange;
 }
 .select-bar {
@@ -128,7 +129,12 @@ option{
     padding-right: 0.5vw;
     font-size: 1.2vw;
 }
-
+.sign-in
+{
+    text-decoration: none;
+    color: white;
+    
+}
 .fi-sign {
     font-size: 0.9vw;
     color: rgb(194, 183, 183);
@@ -377,6 +383,7 @@ option{
         align-items: center;
         position: absolute;
         white-space: nowrap;
+        cursor: pointer;
     }
     #arrow-btn {
         z-index: 2;
@@ -387,6 +394,7 @@ option{
         border-radius: 8px;
         background-color: transparent;
         position: relative;
+        cursor: pointer;
         
     }
     
@@ -477,7 +485,7 @@ option{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     border-radius: 5px;
-  cursor: pointer;
+    cursor: pointer;
     background-color: rgb(255, 187, 0);
     border: 0.01rem solid rgb(201, 102, 37);
     
